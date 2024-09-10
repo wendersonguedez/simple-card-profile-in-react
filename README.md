@@ -1,6 +1,8 @@
 # Simple Card Profile in React
 
-![Profile Card Preview](https://via.placeholder.com/300)
+<p align="center">
+  <img src="./public/preview.png" alt="Profile Card Preview" />
+</p>
 
 A simple project that displays a profile card using React components and props. This project serves as practice to better understand componentization and props handling in React.
 
