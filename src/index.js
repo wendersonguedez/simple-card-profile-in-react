@@ -11,8 +11,9 @@ function App() {
       <div className='data'>
         <Intro
           myName='Wenderson Guedes'
-          aboutMe='Desenvolvedor web full-stack bastante curioso pelas áreas da tecnologia.
-          Gosto de me reunir com meus amigos para fazer nossas noites de jogos, fazer comida e levar a noite jogando conversa fora.'
+          aboutMe='Sou um desenvolvedor web full-stack com uma curiosidade constante por novas tecnologias. Nos meus momentos de lazer, 
+          gosto de explorar novidades na área de TI e me reunir com amigos para noites de jogos, boa comida e longas conversas. 
+          Também me divirto jogando CS2, onde sempre aproveito para desconectar e relaxar.'
         />
         <SkillList />
       </div>
