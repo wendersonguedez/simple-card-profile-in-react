@@ -35,8 +35,8 @@ This will launch the app at `http://localhost:3000`.
 ## Folder Structure
 
 - **`src/`**: Contains all the React components and assets.
-  - `ProfileCard.js`: Main component that renders the card.
-  - `App.js`: Root component that imports and uses `ProfileCard`.
+  - `index.js`: Main component that renders the card.
+  - `index.css`: Main css file with styles.
 
 ## Customization
 
