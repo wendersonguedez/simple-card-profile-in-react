@@ -35,18 +35,23 @@ This will launch the app at `http://localhost:3000`.
 ## Folder Structure
 
 - **`src/`**: Contains all the React components and assets.
-  - `ProfileCard.js`: Main component that renders the card.
-  - `App.js`: Root component that imports and uses `ProfileCard`.
+  - `index.js`: Main component that renders the card.
+  - `index.css`: Main css file with styles.
 
 ## Customization
 
-To modify the content of the card, simply pass different props to the `ProfileCard` component in `App.js`. Example:
+To modify the content of the card, simply pass different props to the `Avatar`, `Intro` and `SkillList` component in `App.js`. Example:
 
 ```js
-<ProfileCard
-  name="John Doe"
-  bio="Full Stack Developer"
-  avatarUrl="https://via.placeholder.com/150"
+<Avatar
+  photoName="https://via.placeholder.com/150"
+/>
+```
+
+```js
+<Intro
+  myName="John West"
+  aboutMe="Describe me"
 />
 ```
 
